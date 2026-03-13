@@ -1,0 +1,135 @@
+{
+  "projectType": "sdk-library",
+  "projectName": "Windows-MCP",
+  "projectDescription": "MCP server that enables AI agents to interact with and automate the Windows operating system through native UI elements, keyboard/mouse control, and system integration",
+  "theme": "aspen",
+  "primaryColor": "#f58a23",
+  "lightColor": "#fbb86e",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/mcp-protocol",
+              "concepts/architecture",
+              "concepts/desktop-automation"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/quickstart",
+              "guides/client-setup",
+              "guides/modes",
+              "guides/browser-automation",
+              "guides/best-practices"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment-variables",
+              "configuration/transport-options",
+              "configuration/telemetry"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "security/overview",
+              "security/deployment",
+              "security/vulnerabilities"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/overview"
+            ]
+          },
+          {
+            "group": "Tools",
+            "pages": [
+              "api/tools/snapshot",
+              "api/tools/click",
+              "api/tools/type",
+              "api/tools/scroll",
+              "api/tools/move",
+              "api/tools/shortcut",
+              "api/tools/app",
+              "api/tools/shell",
+              "api/tools/filesystem",
+              "api/tools/scrape",
+              "api/tools/multiselect",
+              "api/tools/multiedit",
+              "api/tools/clipboard",
+              "api/tools/process",
+              "api/tools/notification",
+              "api/tools/registry",
+              "api/tools/wait"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Additional Resources",
+            "pages": [
+              "resources/troubleshooting",
+              "resources/contributing",
+              "resources/changelog",
+              "resources/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Native Windows UI automation through accessibility tree",
+    "15 MCP tools for comprehensive desktop control",
+    "Browser DOM extraction with use_dom mode",
+    "Multi-display support with coordinate mapping",
+    "Local and remote execution modes",
+    "Lightweight with minimal dependencies",
+    "Real-time interaction (0.2-0.9s latency)",
+    "Works with any LLM without vision requirements"
+  ],
+  "publicApiSurface": [
+    "Snapshot - Capture desktop state and UI elements",
+    "Click - Mouse click operations",
+    "Type - Text input and keyboard typing",
+    "Scroll - Vertical and horizontal scrolling",
+    "Move - Mouse movement and drag operations",
+    "Shortcut - Keyboard shortcut execution",
+    "App - Application launch and window management",
+    "PowerShell - Shell command execution",
+    "FileSystem - File and directory operations",
+    "Scrape - Web content extraction",
+    "MultiSelect - Multiple item selection",
+    "MultiEdit - Batch text input",
+    "Clipboard - Clipboard operations",
+    "Process - Process management",
+    "Notification - Windows toast notifications",
+    "Registry - Windows Registry operations",
+    "Wait - Execution delays"
+  ]
+}
